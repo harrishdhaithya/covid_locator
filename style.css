@@ -1,0 +1,59 @@
+body 
+{
+    margin: 0; 
+    padding: 0;
+    background-color:grey;
+ }
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    float: left;
+    width: 35%;
+    height: 500px;
+    margin: 100px 30px;
+    border-radius: 5px;
+    border:2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    
+ }
+#box{
+    height:500px;
+    width:55%;
+    float: right;
+    background-color:red;
+    margin: 100px 30px;
+    border-radius: 7px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.addr{
+    text-align: center;
+}
+.nav-bar{
+    height: 80px;
+    width:100%;
+    background-color: black;
+    position: fixed;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    z-index: 1000;
+}
+ #image{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+#title{
+    float: left;
+    color: white;
+    margin-left: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+ 
+
