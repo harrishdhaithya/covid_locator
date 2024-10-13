@@ -1,4 +1,4 @@
-api_key = 'pk.eyJ1IjoiaGFycmlzaDIwMDEiLCJhIjoiY2tmaWNyYTd1MDJwcDJxbnUxcnJrMzViciJ9.h0hIQ_8J7awhTNhiKLAdoA';
+api_key = '{{MAP_BOX_API_KEY}}';
 mapboxgl.accessToken = api_key;
 var map = new mapboxgl.Map({
     container: 'map',
